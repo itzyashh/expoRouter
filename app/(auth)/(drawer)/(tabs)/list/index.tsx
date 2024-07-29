@@ -7,6 +7,7 @@ const Page = () => {
     <View>
       <Link href={'/(auth)/(drawer)/(tabs)/list/22?query=boo'}>Go to details 22</Link>
       <Link href={'/(auth)/(drawer)/(tabs)/list/55?go=op'}>Go to details 55</Link>
+      <Link href={'/(auth)/details/145?query=outside'}>Go to details 145</Link>
     </View>
   )
 }
