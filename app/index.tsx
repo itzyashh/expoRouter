@@ -1,6 +1,5 @@
 import SimpleButton from "@/component/SimpleButton";
-import { Link } from "expo-router";
-import { Pressable, StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 
 export default function Page() {
   return (
@@ -11,7 +10,7 @@ export default function Page() {
         <SimpleButton title="Login" link={"/login"} />
         <SimpleButton title="Register" link={"/register"} />
         <SimpleButton title="Policy" link={"/policy"} />
-        <SimpleButton title="Home" replace link={"/(auth)/home"} />
+        <SimpleButton title="Home" replace link={"home"} />
       </View>
     </View>
   );

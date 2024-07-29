@@ -17,8 +17,13 @@ const Layout = () => {
             title: 'Login',
             headerShown: false,
             }} />
-        <Stack.Screen name="(auth)" options={{
+        <Stack.Screen name="(auth)/(drawer)" options={{
             headerShown: false,
+            }} />
+
+        <Stack.Screen name="policy" options={{
+            title: 'Privacy Policy',
+            presentation: 'modal',
             }} />
 
             
