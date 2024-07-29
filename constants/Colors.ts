@@ -1,19 +1,12 @@
-const tintColorLight = '#2f95dc';
-const tintColorDark = '#fff';
+// create constants colors for the app
+// primary, secondary, text, transparent, white, black, grey, 
 
 export default {
-  light: {
-    text: '#000',
-    background: '#fff',
-    tint: tintColorLight,
-    tabIconDefault: '#ccc',
-    tabIconSelected: tintColorLight,
-  },
-  dark: {
-    text: '#fff',
-    background: '#000',
-    tint: tintColorDark,
-    tabIconDefault: '#ccc',
-    tabIconSelected: tintColorDark,
-  },
-};
+  primary: '#f7287b',
+  secondary: '#c717fc',
+  text: '#000',
+  transparent: 'transparent',
+  white: '#fff',
+  black: '#000',
+  grey: '#888',
+}
