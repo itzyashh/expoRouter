@@ -51,6 +51,12 @@ const TabLayout = () => {
                 <AntDesign name="user" size={size} color={color} />
             ),
          }} />
+        <Tabs.Screen name="list" options={{ title: 'List',
+            headerShown: false,
+            tabBarIcon: ({ color, size }) => (
+                <AntDesign name="bars" size={size} color={color} />
+            ),
+         }} />
     </Tabs>
   )
 }

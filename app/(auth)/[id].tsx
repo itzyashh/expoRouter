@@ -1,11 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import { Link } from 'expo-router'
+import { useLocalSearchParams } from 'expo-router'
 
 const Page = () => {
+
+  const { id } = useLocalSearchParams()
+
   return (
     <View>
-      <Text>Home</Text>
+      <Text>External details page {id}</Text>
     </View>
   )
 }
